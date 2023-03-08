@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-Regular.ttf);
+}
+* {
+  font-family: "montserrat";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #ff6060;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+#root {
+  padding: 0px 100px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.navigation .navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navigation .navbar a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-bottom: 1px solid transparent;
+}
+.navigation .navbar a:hover {
+  border-bottom: 1px solid #ff6060;
+  transition: 0.4s;
+}
+
+.homeLogo {
+  margin-top: 65px;
+  height: 233px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/BG-home.png);
+}
+.homeLogo .homeSlogan {
+  height: 233px;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-weight: 600;
+}
+
+.aboutLogo {
+  margin-top: 65px;
+  height: 233px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  background-image: url(../image/BG-about.png);
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error h2 {
+  font-size: 18rem;
+  font-weight: 900;
+  margin-top: 4%;
+}
+.error p {
+  font-size: 2rem;
+  margin-top: 2%;
+}
+.error .back {
+  margin-top: 10%;
+  border-bottom: 1px solid #ff6060;
+}
+
+.footer {
+  background-color: black;
+  width: 1440px;
+  color: white;
+  height: 122px;
+  margin-left: -100px;
+  margin-top: 77px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer img {
+  width: 122px;
+}
+.footer .footerText p {
+  color: white;
+}/*# sourceMappingURL=index.css.map */

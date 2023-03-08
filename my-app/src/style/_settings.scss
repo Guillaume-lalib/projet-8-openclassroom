@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-Regular.ttf);
+}
+
+* {
+  font-family: "montserrat";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #ff6060;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0px auto;
+  // background-color: rgb(207, 207, 207);
+}
+
+#root {
+  padding: 0px 100px;
+  // background-color: white;
+}
