@@ -1,0 +1,19 @@
+.footer {
+  background-color: black;
+  width: 1440px;
+  color: white;
+  height: 122px;
+  margin-left: -100px;
+  margin-top: 77px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  img {
+    width: 122px;
+  }
+  .footerText p {
+    color: white;
+  }
+}
