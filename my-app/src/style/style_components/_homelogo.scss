@@ -1,0 +1,18 @@
+.homeLogo {
+  margin-top: 65px;
+  height: 233px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/BG-home.png);
+  .homeSlogan {
+    height: 233px;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+  }
+}
