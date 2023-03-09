@@ -1,0 +1,23 @@
+.AllCard {
+  border-radius: 25px;
+  padding: 60px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  background-color: #f6f6f6;
+  font-weight: 500;
+  .imagecard {
+    background-size: cover;
+    max-width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    p {
+      position: relative;
+      font-size: 1.3rem;
+      color: white;
+      top: 280px;
+      left: 15px;
+    }
+  }
+}
