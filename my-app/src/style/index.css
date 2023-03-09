@@ -105,4 +105,36 @@ body {
 }
 .footer .footerText p {
   color: white;
+}
+
+.dropdown {
+  margin-top: 50px;
+  padding: 0px 100px;
+}
+.dropdown .collapse {
+  margin-top: 25px;
+}
+.dropdown .cardTitle {
+  background-color: #ff6060;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.dropdown .cardTitle p {
+  color: white;
+  font-size: 1.2rem;
+}
+.dropdown .cardTitle img {
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dropdown .cardText {
+  position: relative;
+  bottom: 5px;
+  background-color: #f6f6f6;
+  padding: 25px 15px;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=index.css.map */
