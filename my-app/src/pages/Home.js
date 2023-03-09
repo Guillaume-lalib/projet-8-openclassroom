@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Imagehome from "../components/Imagehome";
+import Homecard from "../components/Homecard";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <Navigation />
       <Imagehome />
+      <Homecard />
       <Footer />
     </div>
   );

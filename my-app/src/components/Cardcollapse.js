@@ -20,13 +20,6 @@ const Cardcollapse = (props) => {
     }
   };
 
-  //   const arrowRotate = () => {
-  //     if (!rotate) {
-  //       setActive(true);
-  //     } else {
-  //       setActive(false);
-  //     }
-  //   };
   return (
     <div className="collapse">
       <div className="cardTitle">

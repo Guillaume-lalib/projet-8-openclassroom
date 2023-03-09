@@ -142,4 +142,28 @@ body {
   font-size: 1.2rem;
   z-index: -1;
   transition: 0.3s;
+}
+
+.AllCard {
+  border-radius: 25px;
+  padding: 60px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  background-color: #f6f6f6;
+  font-weight: 500;
+}
+.AllCard .imagecard {
+  background-size: cover;
+  max-width: 340px;
+  height: 340px;
+  border-radius: 10px;
+}
+.AllCard .imagecard p {
+  position: relative;
+  font-size: 1.3rem;
+  color: white;
+  top: 280px;
+  left: 15px;
 }/*# sourceMappingURL=index.css.map */
