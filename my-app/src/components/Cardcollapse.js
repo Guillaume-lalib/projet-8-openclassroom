@@ -8,7 +8,7 @@ const Cardcollapse = (props) => {
   const [rotate, setRotate] = useState(false);
   const openCollapse = () => {
     if (!active && !rotate) {
-      setStyle({ height: "100px", opacity: 1, padding: "25px 15px" });
+      setStyle({ height: "130px", opacity: 1, padding: "25px 15px" });
       setActive(true);
       setStyleRotate({ transform: "rotate(0deg)" });
       setRotate(true);
