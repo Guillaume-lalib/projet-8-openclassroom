@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "../datacollapse.json";
+import Data from "../../datacollapse.json";
 import Cardecollapse from "./Cardcollapse";
 
 export const Collapse = () => {

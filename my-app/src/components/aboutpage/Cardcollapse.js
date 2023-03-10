@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Arrow from "../image/small-arrow.png";
+import Arrow from "../../image/small-arrow.png";
 
 const Cardcollapse = (props) => {
   const [style, setStyle] = useState();

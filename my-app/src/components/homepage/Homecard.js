@@ -1,5 +1,5 @@
 import React from "react";
-import Datacard from "../source.json";
+import Datacard from "../../source.json";
 import Card from "./Cardview";
 
 export const Homecard = () => {
