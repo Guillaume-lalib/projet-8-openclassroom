@@ -168,6 +168,10 @@ body {
   padding: 0px 15px;
 }
 
+.bannerAcc {
+  margin-top: -50px;
+}
+
 .bannerImg {
   height: 415px;
   width: 100%;
