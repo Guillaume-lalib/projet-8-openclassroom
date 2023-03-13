@@ -166,4 +166,26 @@ body {
   color: white;
   top: 280px;
   padding: 0px 15px;
+}
+
+.bannerImg {
+  height: 415px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  border-radius: 25px;
+}
+.bannerImg img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.left-right {
+  position: relative;
+  top: 248px;
+  width: 100%;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */

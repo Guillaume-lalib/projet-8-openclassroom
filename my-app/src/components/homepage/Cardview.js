@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Card = (props) => {
-  console.log(props.card);
   const idlink = props.card.id;
   return (
     <NavLink className="card" to={`/accommodation/${idlink}`}>
