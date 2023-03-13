@@ -192,4 +192,45 @@ body {
   padding: 0px 25px;
   display: flex;
   justify-content: space-between;
+}
+
+.description {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.description .title h2 {
+  font-size: 3rem;
+}
+.description .title p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.description .tag {
+  margin-top: 25px;
+}
+.description .tag .tagname {
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 25px;
+  width: 115px;
+  background-color: #ff6060;
+  color: white;
+  padding: 5px 30px;
+}
+.description .host {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.description .host p {
+  font-size: 1.2rem;
+  width: 80px;
+  text-align: right;
+}
+.description .host img {
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
 }/*# sourceMappingURL=index.css.map */

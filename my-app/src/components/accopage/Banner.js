@@ -17,7 +17,6 @@ const Banner = () => {
   const url = window.location.href;
   const id = url.slice(36);
   const [house] = Source.filter((Source) => Source.id === id);
-
   return (
     <div className="bannerAcc">
       <div className="left-right">
