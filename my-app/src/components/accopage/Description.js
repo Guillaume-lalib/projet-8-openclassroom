@@ -7,6 +7,7 @@ const Description = () => {
   const url = window.location.href;
   const id = url.slice(36);
   const [house] = Source.filter((Source) => Source.id === id);
+
   return (
     <div className="description">
       <div className="title">
@@ -19,7 +20,7 @@ const Description = () => {
           <p>{house.host.name}</p>
           <img src={house.host.picture} alt="" />
         </div>
-        <Rating rating={house.rating} />
+        <Rating />
       </div>
     </div>
   );

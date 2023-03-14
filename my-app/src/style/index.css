@@ -205,11 +205,12 @@ body {
   justify-content: space-between;
 }
 .description .title h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  max-width: 1000px;
 }
 .description .title p {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 900;
 }
 .description .tag {
@@ -238,4 +239,7 @@ body {
   border-radius: 100px;
   width: 64px;
   height: 64px;
+}
+.description .rating {
+  margin-top: 30px;
 }/*# sourceMappingURL=index.css.map */
