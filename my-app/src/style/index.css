@@ -194,6 +194,11 @@ body {
   justify-content: space-between;
 }
 
+#left,
+#right {
+  cursor: pointer;
+}
+
 .description {
   margin-top: 50px;
   display: flex;
