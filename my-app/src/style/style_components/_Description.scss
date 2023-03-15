@@ -43,3 +43,28 @@
     margin-top: 30px;
   }
 }
+@media screen and (max-width: 890px) {
+  .description {
+    display: block;
+  }
+  .host-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  span {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .tagname {
+    font-size: 0.8rem !important;
+    padding: 5px 10px !important;
+  }
+}

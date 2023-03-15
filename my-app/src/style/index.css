@@ -17,10 +17,41 @@ body {
   margin: 0px auto;
 }
 
-#root {
-  padding: 0px 100px;
+.navigation,
+.aboutLogo,
+.dropdown,
+.homeLogo,
+.AllCard,
+.bannerAcc,
+.description,
+.infos {
+  margin: 0 100px;
 }
 
+@media screen and (max-width: 960px) {
+  .navigation,
+  .aboutLogo,
+  .dropdown,
+  .homeLogo,
+  .AllCard,
+  .bannerAcc,
+  .description,
+  .infos {
+    margin: 0px 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .navigation,
+  .aboutLogo,
+  .dropdown,
+  .homeLogo,
+  .AllCard,
+  .description,
+  .infos,
+  .bannerAcc {
+    margin: 0px 20px;
+  }
+}
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -41,6 +72,24 @@ body {
   transition: 0.4s;
 }
 
+@media screen and (max-width: 960px) {
+  .webSiteLogo img {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  a {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .webSiteLogo img {
+    height: 40px;
+  }
+  .navbar {
+    gap: 20px !important;
+  }
+}
 .homeLogo {
   margin-top: 65px;
   height: 233px;
@@ -59,8 +108,27 @@ body {
   font-weight: 600;
 }
 
+@media screen and (max-width: 760px) {
+  .homeSlogan {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 615px) {
+  .homeLogo {
+    height: 150px;
+  }
+  .homeSlogan {
+    height: 150px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homeSlogan {
+    font-size: 1.5rem !important;
+    padding: 0px 20px;
+  }
+}
 .aboutLogo {
-  margin-top: 65px;
+  margin-top: 4%;
   height: 233px;
   background-position: center;
   background-size: cover;
@@ -89,10 +157,8 @@ body {
 
 .footer {
   background-color: black;
-  width: 1440px;
   color: white;
   height: 122px;
-  margin-left: -100px;
   margin-top: 77px;
   padding-top: 30px;
   display: flex;
@@ -109,7 +175,7 @@ body {
 
 .dropdown {
   margin-top: 40px;
-  padding: 0px 100px;
+  padding: 0px 8%;
 }
 .dropdown .collapse {
   margin-top: 30px;
@@ -120,6 +186,7 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   justify-content: space-between;
+  align-items: center;
 }
 .dropdown .cardTitle p {
   color: white;
@@ -144,6 +211,17 @@ body {
   transition: 0.3s;
 }
 
+@media screen and (max-width: 680px) {
+  .dropdown {
+    padding: 10px;
+  }
+  .cardText {
+    font-size: 1rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+}
 .dropdownhouse {
   display: flex;
   gap: 30px;
@@ -159,6 +237,8 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 .dropdownhouse .cardTitle p {
   color: white;
@@ -172,7 +252,7 @@ body {
   transition: 0.3s;
 }
 .dropdownhouse .cardText {
-  height: 0;
+  height: 0px;
   opacity: 0;
   position: relative;
   bottom: 5px;
@@ -184,6 +264,19 @@ body {
   display: block;
 }
 
+@media screen and (max-width: 650px) {
+  .dropdownhouse {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdownhouse .collapse {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .dropdownhouse .cardText {
+    min-height: 0px !important;
+  }
+}
 .AllCard {
   border-radius: 25px;
   padding: 60px;
@@ -202,12 +295,26 @@ body {
 }
 .AllCard .imagecard p {
   position: relative;
-  font-size: 1.3rem;
   color: white;
   top: 280px;
   padding: 0px 15px;
 }
 
+@media screen and (max-width: 1030px) {
+  .AllCard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 615px) {
+  .AllCard {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .imagecard {
+    min-width: 100%;
+  }
+}
 .bannerAcc {
   margin-top: -50px;
 }
@@ -297,4 +404,30 @@ body {
 }
 .description .rating {
   margin-top: 30px;
+}
+
+@media screen and (max-width: 890px) {
+  .description {
+    display: block;
+  }
+  .host-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  span {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .tagname {
+    font-size: 0.8rem !important;
+    padding: 5px 10px !important;
+  }
 }/*# sourceMappingURL=index.css.map */

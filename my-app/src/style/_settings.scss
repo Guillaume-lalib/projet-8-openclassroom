@@ -16,10 +16,39 @@
 body {
   max-width: 1440px;
   margin: 0px auto;
-  // background-color: rgb(207, 207, 207);
+}
+.navigation,
+.aboutLogo,
+.dropdown,
+.homeLogo,
+.AllCard,
+.bannerAcc,
+.description,
+.infos {
+  margin: 0 100px;
 }
 
-#root {
-  padding: 0px 100px;
-  // background-color: white;
+@media screen and (max-width: 960px) {
+  .navigation,
+  .aboutLogo,
+  .dropdown,
+  .homeLogo,
+  .AllCard,
+  .bannerAcc,
+  .description,
+  .infos {
+    margin: 0px 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .navigation,
+  .aboutLogo,
+  .dropdown,
+  .homeLogo,
+  .AllCard,
+  .description,
+  .infos,
+  .bannerAcc {
+    margin: 0px 20px;
+  }
 }

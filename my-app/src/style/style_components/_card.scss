@@ -14,10 +14,25 @@
     border-radius: 10px;
     p {
       position: relative;
-      font-size: 1.3rem;
+
       color: white;
       top: 280px;
       padding: 0px 15px;
     }
+  }
+}
+@media screen and (max-width: 1030px) {
+  .AllCard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 615px) {
+  .AllCard {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .imagecard {
+    min-width: 100%;
   }
 }

@@ -17,3 +17,21 @@
     }
   }
 }
+@media screen and (max-width: 960px) {
+  .webSiteLogo img {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  a {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .webSiteLogo img {
+    height: 40px;
+  }
+  .navbar {
+    gap: 20px !important;
+  }
+}
