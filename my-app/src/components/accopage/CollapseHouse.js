@@ -6,18 +6,15 @@ const CollapseHouse = () => {
   const url = window.location.href;
   const id = url.slice(36);
   const [house] = Source.filter((Source) => Source.id === id);
+
   return (
     <div className="dropdownhouse">
       <Cardecollapse
-        key={id}
+        key={2}
         title={"Description"}
         content={house.description}
       />
-      <Cardecollapse
-        key={id}
-        title={"Équipements"}
-        content={house.equipments}
-      />
+      <Cardecollapse key={1} title={"Équipements"} content={house.equipments} />
     </div>
   );
 };

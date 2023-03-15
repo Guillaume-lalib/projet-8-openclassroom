@@ -18,7 +18,7 @@ const Description = () => {
       <div className="host-rating">
         <div className="host">
           <p>{house.host.name}</p>
-          <img src={house.host.picture} alt="" />
+          <img src={house.host.picture} alt="hostPicture" />
         </div>
         <Rating />
       </div>
