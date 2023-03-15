@@ -1,10 +1,12 @@
 import React from "react";
-import Source from "../../source.json";
+import CollapseHouse from "./CollapseHouse";
 
 const Infos = () => {
-  console.log(Source);
-
-  return <div className="infos"></div>;
+  return (
+    <div className="infos">
+      <CollapseHouse />
+    </div>
+  );
 };
 
 export default Infos;

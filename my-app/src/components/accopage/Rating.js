@@ -28,8 +28,8 @@ const Rating = () => {
       {ratingOrange.map((id) => (
         <img key={id} src={ratingOrange[0]} alt="stars" />
       ))}
-      {rating.map((id) => (
-        <img key={id} src={rating[0]} alt="stars" />
+      {rating.map((idG) => (
+        <img key={idG} src={rating[0]} alt="stars" />
       ))}
     </div>
   );
