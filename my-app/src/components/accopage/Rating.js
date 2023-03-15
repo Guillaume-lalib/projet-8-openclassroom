@@ -9,30 +9,20 @@ const Rating = () => {
   const [house] = Source.filter((Source) => Source.id === id);
 
   const value = house.rating;
-  const ratingOrange = [];
   const rating = [];
 
   function valueRateOrange() {
     for (let i = 0; i < value; i++) {
-      ratingOrange.push(OrangeStar);
+      rating.push(<img key={`10 + ${i}`} src={OrangeStar} alt="star orange" />);
     }
     for (let i = 0; i < 5 - value; i++) {
-      rating.push(GreyStar);
+      rating.push(<img key={`0 + ${i}`} src={GreyStar} alt="star grey" />);
     }
   }
 
   valueRateOrange();
 
-  return (
-    <div className="rating">
-      {ratingOrange.map((id) => (
-        <img key={id} src={ratingOrange[0]} alt="stars" />
-      ))}
-      {rating.map((idG) => (
-        <img key={idG} src={rating[0]} alt="stars" />
-      ))}
-    </div>
-  );
+  return <div className="rating">{rating}</div>;
 };
 
 export default Rating;
