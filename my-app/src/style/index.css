@@ -150,7 +150,7 @@ body {
   margin-top: 40px;
 }
 .dropdownhouse .collapse {
-  max-width: 50%;
+  width: 50%;
   margin-top: 30px;
 }
 .dropdownhouse .cardTitle {

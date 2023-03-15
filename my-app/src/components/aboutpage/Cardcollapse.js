@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Arrow from "../../image/small-arrow.png";
 
-const Cardcollapse = ({ title, content }) => {
+const Cardcollapse = ({ title, content }, contentarray) => {
   const [style, setStyle] = useState();
   const [rotateStyle, setStyleRotate] = useState();
   const [active, setActive] = useState(false);
