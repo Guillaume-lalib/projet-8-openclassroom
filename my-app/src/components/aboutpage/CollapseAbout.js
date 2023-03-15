@@ -3,10 +3,11 @@ import Data from "../../datacollapse.json";
 import Cardecollapse from "./Cardcollapse";
 
 export const Collapse = () => {
+  console.log(Data);
   return (
     <div className="dropdown">
-      {Data.map((datacard, id) => (
-        <Cardecollapse key={id} datacard={datacard} />
+      {Data.map(({ content, title }, id) => (
+        <Cardecollapse key={id} title={title} content={content} />
       ))}
     </div>
   );
