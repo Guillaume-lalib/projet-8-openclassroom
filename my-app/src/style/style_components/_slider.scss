@@ -24,3 +24,17 @@
 #right {
   cursor: pointer;
 }
+.numbers {
+  text-align: center;
+  p {
+    position: relative;
+    bottom: 50px;
+    letter-spacing: 10px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+  }
+}
+.delete {
+  visibility: hidden;
+}

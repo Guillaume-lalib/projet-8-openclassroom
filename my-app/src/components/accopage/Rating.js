@@ -22,8 +22,7 @@ const Rating = () => {
   }
 
   valueRateOrange();
-  console.log(value);
-  console.log(rating);
+
   return (
     <div className="rating">
       {ratingOrange.map((id) => (
