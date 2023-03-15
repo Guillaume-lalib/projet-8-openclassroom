@@ -6,7 +6,6 @@ const CollapseHouse = () => {
   const url = window.location.href;
   const id = url.slice(36);
   const [house] = Source.filter((Source) => Source.id === id);
-  console.log(house);
   return (
     <div className="dropdownhouse">
       <Cardecollapse
