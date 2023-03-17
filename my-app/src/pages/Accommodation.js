@@ -11,7 +11,7 @@ const Accommodation = () => {
   const url = window.location.href;
   const id = url.slice(36);
   const [house] = Source.filter((Source) => Source.id === id);
-  console.log(id, house.id);
+  // console.log(id, house.id);
 
   return (
     <div>

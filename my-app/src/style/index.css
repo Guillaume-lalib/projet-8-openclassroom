@@ -144,17 +144,27 @@ body {
 .error h2 {
   font-size: 18rem;
   font-weight: 900;
-  margin-top: 4%;
+  margin-top: 120px;
 }
 .error p {
   font-size: 2rem;
-  margin-top: 2%;
+  margin-top: 45px;
 }
 .error .back {
   margin-top: 10%;
   border-bottom: 1px solid #ff6060;
 }
 
+@media screen and (max-width: 890px) {
+  .error h2 {
+    font-size: 9rem !important;
+  }
+  .error p {
+    margin: 45px 20px;
+    text-align: center;
+    font-size: 1.3rem !important;
+  }
+}
 .footer {
   background-color: black;
   color: white;
