@@ -38,3 +38,13 @@
 .delete {
   visibility: hidden;
 }
+@media screen and (max-width: 680px) {
+  #left,
+  #right {
+    margin-top: 50px;
+    height: 30px !important;
+  }
+  .numbers {
+    visibility: hidden;
+  }
+}
