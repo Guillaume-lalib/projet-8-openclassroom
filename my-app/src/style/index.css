@@ -89,15 +89,15 @@ body {
     gap: 20px !important;
   }
 }
-.homeLogo {
-  margin-top: 65px;
+.Logo {
+  margin: 65px 100px 0 100px;
   height: 233px;
   background-position: center;
   background-size: cover;
   border-radius: 25px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/BG-home.png);
 }
-.homeLogo .homeSlogan {
+.Logo .homeSlogan {
   height: 233px;
   font-size: 3rem;
   align-items: center;
@@ -107,25 +107,6 @@ body {
   font-weight: 600;
 }
 
-@media screen and (max-width: 760px) {
-  .homeSlogan {
-    font-size: 2rem !important;
-  }
-}
-@media screen and (max-width: 615px) {
-  .homeLogo {
-    height: 150px;
-  }
-  .homeSlogan {
-    height: 150px !important;
-  }
-}
-@media screen and (max-width: 500px) {
-  .homeSlogan {
-    font-size: 1.5rem !important;
-    padding: 0px 20px;
-  }
-}
 .aboutLogo {
   margin-top: 4%;
   height: 233px;
@@ -135,6 +116,35 @@ body {
   background-image: url(../image/BG-about.png);
 }
 
+@media screen and (max-width: 960px) {
+  .Logo {
+    margin: 65px 50px 0 50px !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .Logo {
+    margin: 65px 20px 0 20px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .homeSlogan {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 615px) {
+  .Logo {
+    height: 150px !important;
+  }
+  .homeSlogan {
+    height: 150px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homeSlogan {
+    font-size: 1.3rem !important;
+    padding: 0px 20px !important;
+  }
+}
 .error {
   display: flex;
   flex-direction: column;
