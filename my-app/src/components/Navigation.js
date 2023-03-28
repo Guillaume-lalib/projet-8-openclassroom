@@ -9,8 +9,18 @@ const Navigation = () => {
         <img src={weblogo} alt="web site logo kasa" />
       </div>
       <div className="navbar">
-        <NavLink to="/">Acceuil</NavLink>
-        <NavLink to="/about">A Propos</NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to="/"
+        >
+          Acceuil
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to="/about"
+        >
+          A Propos
+        </NavLink>
       </div>
     </div>
   );

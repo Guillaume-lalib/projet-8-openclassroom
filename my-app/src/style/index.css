@@ -67,9 +67,8 @@ body {
   font-size: 1.5rem;
   border-bottom: 1px solid transparent;
 }
-.navigation .navbar a:hover {
+.navigation .navbar a.active {
   border-bottom: 1px solid #ff6060;
-  transition: 0.4s;
 }
 
 @media screen and (max-width: 960px) {
